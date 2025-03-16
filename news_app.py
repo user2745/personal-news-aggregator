@@ -2,7 +2,7 @@ import requests
 import streamlit as st
 
 # NEWSAPI 
-API_KEY = ''
+API_KEY = process.env.API_KEY
 
 BASE_URL = 'https://newsapi.org/v2/everything'
 
